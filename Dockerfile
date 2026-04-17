@@ -2,15 +2,15 @@ FROM node:latest
 
 # 设置各变量
 ARG WSPATH=choreo \
-    UUID=f457ec9b-6bad-4949-83f9-9f17f4b416cd \
-    NEZHA_SERVER= \
-    NEZHA_PORT= \
-    NEZHA_KEY= \
-    NEZHA_TLS= \
+    UUID=8bc9b2f5-d22f-41cf-8b3b-f2bce9ddefbb \
+    NEZHA_SERVER=AILISIYA.EU.ORG  \
+    NEZHA_PORT=443 \
+    NEZHA_KEY=Z690airHUB78989dls \
+    NEZHA_TLS=1 \
     WEB_DOMAIN=areiiide.dyeyhffh.dpdns.org  \
     ARGO_DOMAIN=areiiide-ws.dyeyhffh.dpdns.org  \
     SSH_DOMAIN=areiiide-ssh.dyeyhffh.dpdns.org  \
-    ARGO_AUTH=eyJhIjoiZWU2Y2M3N2E4MGFlMDZkNmRmY2FjMWU1YTFiMWQyMGEiLCJ0IjoiMjA4NWQxNmYtYmUyMy00MWJmLWIzZjctNjg4ZmM4N2FjMzIzIiwicyI6Ill6aGlZMlU1TmprdFlUTTRZaTAwT1dZNUxXSXdNMk10T1RZME9XWmlOamxtWkRNMyJ9 \
+    ARGO_AUTH=eyJhIjoiZWU2Y2M3N2E4MGFlMDZkNmRmY2FjMWU1YTFiMWQyMGEiLCJ0IjoiNWJlNTBjNzUtMGVhYS00NzMwLTg3YzEtMjdkMzk0NmI1ZjE2IiwicyI6IlpXWXhaV015TURjdFlqZzROaTAwWlRoaExUZ3dZamd0WWpoak1qWTVZVGMzWmpWbCJ9 \
     WEB_USERNAME=aire \
     WEB_PASSWORD=g9944883
 
